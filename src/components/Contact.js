@@ -79,9 +79,9 @@ function Contact() {
                                     required
                                 />
                                 {nameError && (
-                                   <div className='invalid-feedback'>
-                                        Please enter a name longer than 5 characters.
-                                    </div>
+                                <div className='invalid-feedback'>
+                                    Please enter a name longer than 5 characters.
+                                </div>
                                 )}
                             </Form.Group>
                             <Form.Group>
