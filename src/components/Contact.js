@@ -10,3 +10,8 @@ function Contact() {
     const [emailError, setEmailError] = useState(false);
     const [messageError, setMessageError] = useState(false);
     const [messageSent, setMessageSent] = useState(false);
+
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
+        setEmailError(false);
+    };
