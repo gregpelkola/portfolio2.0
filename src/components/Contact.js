@@ -10,8 +10,8 @@ function Contact() {
     const [emailError, setEmailError] = useState(false);
     const [messageError, setMessageError] = useState(false);
     const [messageSent, setMessageSent] = useState(false);
-
-   const handleNameChange = (e) => {
+    
+    const handleNameChange = (e) => {
         setName(e.target.value);
         setNameError(false);
     };
@@ -130,5 +130,3 @@ function Contact() {
 }
 
 export default Contact;
-```
-
