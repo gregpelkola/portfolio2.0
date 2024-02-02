@@ -14,7 +14,8 @@ function About() {
                 <Col md={6}>
                     <Card>
                         <Card.Body>
-                            <Card.Text> // This is a placeholder for the about me section.
+                            <Card.Text> 
+                                // This is a placeholder for the about me section.
                                 I am a full-stack web developer with a background in customer service and project management. I am passionate about creating user-friendly applications that solve real-world problems. I am a quick learner and enjoy working with a team to create a product that is both functional and visually appealing. I am excited to bring my skills to a team that values collaboration and creativity.
                             </Card.Text>
                         </Card.Body>
