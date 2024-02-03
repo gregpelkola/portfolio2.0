@@ -1,0 +1,10 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icon-wrapper {
+    margin-top: 1rem;
+    padding-bottom: 0;
+}
