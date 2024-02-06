@@ -9,7 +9,7 @@ function Header() {
             <Container fluid className="bg-dark">
                 <Row className='justify-content-center text-center mb=0'>
                     <Col className='pb-o'>
-                        <h1 className='text-white' style={{fontSize: '3rem'}}>Greg Pelkola</h1>
+                        <h1 className='text-white' style={{fontSize: '3rem'}}></h1>
                     </Col>
                 </Row>
             </Container>

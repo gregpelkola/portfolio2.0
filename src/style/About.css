@@ -1,6 +1,11 @@
-.about-heading {
-    font-size: 2.5rem;
-    margin-top: 0.4rem;
+#about {
+    margin-bottom: 12rem;
+}
+
+.about-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -15,7 +20,7 @@
 .card-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.9;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -25,9 +30,6 @@
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-}
-#about {
-    margin-bottom: 12rem;
 }
 
 @media (min-width: 768px) {

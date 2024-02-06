@@ -20,7 +20,7 @@ const Footer = () => {
     return (
         <footer className='footer bg-dark text-white'>
             <div className='footer-container'>
-                <section className='social-icons-wrapper d-flex flex-md-row justfiy-content-center'>
+                <section className='social-icons-wrapper justify-content-center'>
                     {socials.map(({ name, link, icon }) => (
                         <div key={name} className='d-flex flex-column align-items-center mx-md-2 transparent-bg'>
                             <a href={link} target='_blank' rel='noreferrer'>

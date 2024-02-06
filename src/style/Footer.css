@@ -5,6 +5,7 @@
 }
 
 .social-icon-wrapper {
+    position: justify-content-evenly;
     margin-top: 1rem;
     padding-bottom: 0;
 }

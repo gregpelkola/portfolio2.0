@@ -9,13 +9,13 @@ function About() {
         <Container>
             <Row>
                 <Col md={6}>
-                    <Image src="https://via.placeholder.com/300" alt="placeholder" roundedCircle fluid />
+                    <Image src="https://via.placeholder.com/250" alt="placeholder" roundedCircle fluid />
                 </Col>
                 <Col md={6}>
                     <Card>
                         <Card.Body>
                             <Card.Text> 
-                                I am a full-stack web developer with a background in customer service and project management. I am passionate about creating user-friendly applications that solve real-world problems. I am a quick learner and enjoy working with a team to create a product that is both functional and visually appealing. I am excited to bring my skills to a team that values collaboration and creativity.
+                                Hi, my name is Greg Pelkola. I enjoy playing guitar, video games, relaxing with my dogs, and of course, coding. I am a full stack web developer with a passion for creating and maintaining web applications. I am skilled in HTML, CSS, JavaScript, Node.js, Express.js, SQL, and React. I am also familiar with MongoDB, Mongoose, and Git. I am a quick learner and am always looking to expand my skill set. I am currently attending the University of Wisconsin Extended Campus Full Stack Bootcamp, I will be graduating February 2024.
                             </Card.Text>
                         </Card.Body>
                     </Card>
