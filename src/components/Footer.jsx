@@ -19,8 +19,8 @@ const socials = [
 const Footer = () => {
     return (
         <footer className='footer bg-dark text-white'>
-            <div className='footer-container'>
-                <section className='social-icons-wrapper justify-content-center'>
+            <div className='footer-container d-flex justify-content-center align-items-center'>
+                <section className='social-icons-wrapper d-flex'>
                     {socials.map(({ name, link, icon }) => (
                         <div key={name} className='d-flex flex-column align-items-center mx-md-2 transparent-bg'>
                             <a href={link} target='_blank' rel='noreferrer'>
@@ -32,8 +32,9 @@ const Footer = () => {
                         </div>
                     ))}
                 </section>
+                <div className='mx-2'></div>
                 <section className='footer-text'>
-                    <p>Greg Pelkola &copy; 2024</p>
+                    <p>Greg Pelkola &copy; {new Date().getFullYear()}</p>
                 </section>
             </div>
         </footer>
