@@ -7,7 +7,7 @@ const Navigation = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" className='py-0.5 mt-0'>
             <Container>
-                <Navbar.Brand as={Link} to='/about' className='navbar-brand'>Home</Navbar.Brand>
+                <Navbar.Brand as={Link} to='/about' className='navbar-brand'>Greg Pelkola</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='ms-auto'>

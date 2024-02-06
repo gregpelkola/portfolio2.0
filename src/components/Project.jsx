@@ -1,6 +1,8 @@
 import React from 'react';
 import "../style/Project.css";
 
+import PropTypes from 'prop-types';
+
 function Project(props) {
     return (
         <div className='card'>
@@ -16,5 +18,15 @@ function Project(props) {
         </div>
     );
 }
+
+Project.propTypes = {
+    title: PropTypes.string.isRequired,
+    deployed: PropTypes.string.isRequired,
+    imgSrc: PropTypes.string.isRequired,
+    imgAlt: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    github: PropTypes.string.isRequired,
+};
+
 
 export default Project;
