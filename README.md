@@ -43,10 +43,14 @@ https://effortless-smakager-92cb60.netlify.app/ -Deployed
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+![alt text](src/images/screenshot.png)
+
+
 When you first arrive on the webpage you will be loaded into a blank page landing page, using the navigation bar you can navigate to About, Portfolio, Contact and Resume. When you click on the navigation for the page you want to look at it will redirect you to that page. When on the About page you will see an image of me and information about me. When on the Portfolio page you will be able to click the buttons for each project to see the deployed application and the applications GitHub. When on the contact page, there will be a form to log user inputs and submit to contact me. On the resume page you will see a button to download my resume, and a list of my technical skills. 
 
 
-![alt text](src/images/screenshot.png)
+
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
