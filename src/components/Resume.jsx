@@ -10,8 +10,8 @@ function Resume() {
                 <Row>
                     <Col className='text-center'>
                         <h1>Resume</h1>
-                        <hr className='star-primary' />
                         <Button variant='dark' href={PDF} download>Download Resume</Button>
+                        <hr className='star-primary' />
                     </Col>
                 </Row>
                 <Row>

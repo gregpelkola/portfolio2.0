@@ -58,8 +58,8 @@ function Portfolio() {
                             github: 'https://github.com/gregpelkola/my-portfolio',
                             deployed: 'https://gregpelkola.github.io/my-portfolio/'
                         },
-                    ].map((project, index) => (
-                        <div className='col-12 col-md-6 col-lg-4 my-2' key={index}>
+                    ].map((project) => (
+                        <div className='col-12 col-md-6 col-lg-4 my-2' key={project.id}>
                             <Project
                                 title={project.title}
                                 image={project.image}
