@@ -38,7 +38,9 @@ Clone the repository, open in VsCode, in the terminal run npm i to install modul
 ## Usage
 
 https://effortless-smakager-92cb60.netlify.app/ -Deployed
--Repository
+
+
+https://github.com/gregpelkola/portfolio2.0   -Repository
 
 Provide instructions and examples for use. Include screenshots as needed.
 
