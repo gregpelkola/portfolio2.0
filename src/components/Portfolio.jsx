@@ -62,7 +62,7 @@ function Portfolio() {
                         <div className='col-12 col-md-6 col-lg-4 my-2' key={project.id}>
                             <Project
                                 title={project.title}
-                                image={project.image}
+                                imgSrc={project.image}
                                 description={project.description}
                                 github={project.github}
                                 deployed={project.deployed}
