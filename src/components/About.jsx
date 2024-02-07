@@ -9,7 +9,7 @@ function About() {
         <Container>
             <Row>
                 <Col md={6}>
-                    <Image src="../images/avatar.png" alt="myavatar"/>
+                    <Image src="./src/images/avatar.png" alt="myavatar"/>
                 </Col>
                 <Col md={6}>
                     <Card>
