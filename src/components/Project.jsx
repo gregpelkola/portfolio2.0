@@ -3,6 +3,7 @@ import "../style/Project.css";
 
 import PropTypes from 'prop-types';
 
+
 function Project(props) {
     return (
         <div className='card'>
